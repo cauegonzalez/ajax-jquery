@@ -1,0 +1,43 @@
+h1 {
+    text-align: center;
+}
+
+textarea, input {
+    display: block;
+    outline: none;
+    font-family: inherit;
+    font-size: inherit;
+}
+
+input[type='button'] {
+    float: right;
+}
+
+textarea.fieldForm, input.fieldForm {
+    background: #fff;
+    border: 3px dashed teal;
+    padding: 10px 20px;
+    width: 300px;
+    margin: 5px 0 10px 0;
+    color: #777;
+}
+
+textarea.fieldForm:focus, input.fieldForm:focus {
+    border: 3px dashed tomato;
+    transition: all .5s ease;
+}
+
+#main {
+    display: block;
+    float: left;
+    width: 346px;
+}
+
+#response {
+    display: none;
+    border: 3px solid teal;
+    padding: 5px 20px;
+    background-color: #FFFFFF;
+    float: left;
+    margin: 30px 50px 0 50px;
+}
